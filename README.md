@@ -72,10 +72,45 @@ Una vez procesados los datos, la API devuelve la respuesta al frontend.
 El frontend muestra la información final al usuario.
 La nube proporciona escalado, seguridad y disponibilidad en todo el flujo.
 ### Mapeo de funciones cloud a componentes (mínimo 3)
-- Procesamiento → …
-- Ejecución → …
-- Almacenamiento → …
-- Intercambio → … (opcional si ya tienes 3)
+- Procesamiento → Máquinas virtuales (VMs), contenedores (Docker), servicios de cómputo gestionado (AWS EC2, Azure VM, Google Compute Engine)
+- Ejecución → Funciones serverless / FaaS (AWS Lambda, Azure Functions, Google Cloud Functions)
+- Almacenamiento → Almacenamiento de objetos (Amazon S3, Azure Blob Storage, Google Cloud Storage)
+- Intercambio → APIs, colas de mensajes, brokers de eventos
 
 ## 📚 Fuentes (enlaces oficiales)
 (Enlaces oficiales usados en la tabla A y en la B)
+A
+[https://aws.amazon.com/ec2/](https://aws.amazon.com/ec2/) 
+[https://aws.amazon.com/lambda/](https://aws.amazon.com/lambda/)
+[https://azure.microsoft.com/services/app-service/]
+(https://azure.microsoft.com/services/app-service/)
+[https://www.salesforce.com/](https://www.salesforce.com/) 
+[https://workspace.google.com/](https://workspace.google.com/)
+[https://aws.amazon.com/s3/](https://aws.amazon.com/s3/)
+[https://www.microsoft.com/onedrive/]
+(https://www.microsoft.com/onedrive/)
+[https://firebase.google.com/](https://firebase.google.com/)
+[https://github.com/](https://github.com/)
+[https://www.oracle.com/cloud/compute/]
+(https://www.oracle.com/cloud/compute/)  
+B
+https://aws.amazon.com/what-is-cloud-computing/
+ — AWS (Amazon Web Services)
+
+https://cloud.google.com/learn/what-is-cloud-architecture
+ — Google Cloud
+
+https://docs.cloud.google.com/architecture
+ — Google Cloud
+
+https://aws.amazon.com/products/compute/
+ — AWS (Amazon Web Services)
+
+https://cloud.google.com/storage
+ — Google Cloud
+
+https://cloud.google.com/learn/what-is-cloud-security
+ — Google Cloud
+
+https://aws.amazon.com/getting-started/aws-security-essentials/
+ — AWS (Amazon Web Services)
